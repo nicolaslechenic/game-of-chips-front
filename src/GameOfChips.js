@@ -1,5 +1,22 @@
+import '../lib/gem/src/gemArray.js'
+import '../lib/gem/src/gemNumber.js'
+
+import Deck from './Deck.js'
+import Combo from './Combo.js'
+
+import HighCard from './combos/HighCard.js'
+import Pair from './combos/Pair.js'
+import TwoPairs from './combos/TwoPairs.js'
+import ThreeOfAKind from './combos/ThreeOfAKind.js'
+import Straight from './combos/Straight.js'
+import Flush from './combos/Flush.js'
+import FullHouse from './combos/FullHouse.js'
+import FourOfAKind from './combos/FourOfAKind.js'
+import StraightFlush from './combos/StraightFlush.js'
+import RoyalFlush from './combos/RoyalFlush.js'
+
 const COMBOS = [
-  {name: "RoyalFlush", class:RoyalFlush },
+  {name: "RoyalFlush", class: RoyalFlush },
   {name: "StraightFlush", class: StraightFlush},
   {name: "FourOfAKind", class: FourOfAKind},
   {name: "FullHouse", class: FullHouse},

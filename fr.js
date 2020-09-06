@@ -1,4 +1,4 @@
-let data = {
+const data = {
   "combos": 
     {
       "HighCard": "Hauteur",
@@ -13,3 +13,5 @@ let data = {
       "RoyalFlush": "Quinte Flush Royale"
     }
 }
+
+export default data;
