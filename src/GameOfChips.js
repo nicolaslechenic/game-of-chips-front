@@ -47,9 +47,6 @@ imgVillain.src = `./assets/images/players/${VILLAINS[villainIndex]}.png`
 
 avatarVillain.append(imgVillain)
 
-let heroHand, villainHand, flop, turn, river
-
-
 document.getElementById("deal").addEventListener('click', () => {
   let deal = document.getElementById("deal")
   let deck = new Deck()
